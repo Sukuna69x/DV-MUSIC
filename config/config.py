@@ -332,7 +332,7 @@ if PING_IMG_URL:
 
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "https://graph.org/file/541179c4226568884e2c8-458b3ab9f686a3224a.png:
+    if PLAYLIST_IMG_URL != "https://graph.org/file/541179c4226568884e2c8-458b3ab9f686a3224a.png":
         if not re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL url is wrong. Please ensure that it starts with https://"
